@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		EA0380DC223ACE27000BC271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0380DB223ACE27000BC271 /* AppDelegate.swift */; };
 		EA0380DE223ACE27000BC271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0380DD223ACE27000BC271 /* ViewController.swift */; };
-		EA0380E1223ACE27000BC271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0380DF223ACE27000BC271 /* Main.storyboard */; };
 		EA0380E3223ACE28000BC271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0380E2223ACE28000BC271 /* Assets.xcassets */; };
 		EA0380E6223ACE28000BC271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0380E4223ACE28000BC271 /* LaunchScreen.storyboard */; };
+		EA0380F0223AF79C000BC271 /* RedSquareArenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0380EF223AF79C000BC271 /* RedSquareArenaViewController.swift */; };
+		EA0380F4223B0602000BC271 /* BlueCircleArenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0380F3223B0602000BC271 /* BlueCircleArenaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA0380D8223ACE27000BC271 /* vmc49_p3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vmc49_p3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0380DB223ACE27000BC271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA0380DD223ACE27000BC271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA0380E0223ACE27000BC271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA0380E2223ACE28000BC271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA0380E5223ACE28000BC271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA0380E7223ACE28000BC271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0380EF223AF79C000BC271 /* RedSquareArenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSquareArenaViewController.swift; sourceTree = "<group>"; };
+		EA0380F3223B0602000BC271 /* BlueCircleArenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCircleArenaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		EA0380DA223ACE27000BC271 /* vmc49_p3 */ = {
 			isa = PBXGroup;
 			children = (
+				EA0380EF223AF79C000BC271 /* RedSquareArenaViewController.swift */,
+				EA0380F3223B0602000BC271 /* BlueCircleArenaViewController.swift */,
 				EA0380DB223ACE27000BC271 /* AppDelegate.swift */,
 				EA0380DD223ACE27000BC271 /* ViewController.swift */,
-				EA0380DF223ACE27000BC271 /* Main.storyboard */,
 				EA0380E2223ACE28000BC271 /* Assets.xcassets */,
 				EA0380E4223ACE28000BC271 /* LaunchScreen.storyboard */,
 				EA0380E7223ACE28000BC271 /* Info.plist */,
@@ -124,7 +127,6 @@
 			files = (
 				EA0380E6223ACE28000BC271 /* LaunchScreen.storyboard in Resources */,
 				EA0380E3223ACE28000BC271 /* Assets.xcassets in Resources */,
-				EA0380E1223ACE27000BC271 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0380F0223AF79C000BC271 /* RedSquareArenaViewController.swift in Sources */,
 				EA0380DE223ACE27000BC271 /* ViewController.swift in Sources */,
+				EA0380F4223B0602000BC271 /* BlueCircleArenaViewController.swift in Sources */,
 				EA0380DC223ACE27000BC271 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA0380DF223ACE27000BC271 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA0380E0223ACE27000BC271 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA0380E4223ACE28000BC271 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
